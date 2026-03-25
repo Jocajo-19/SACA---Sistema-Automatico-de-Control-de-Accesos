@@ -7,7 +7,7 @@
 
 ## 🛑 ANTEPROYECTO (Acceso Directo)
 > **Importante:** Toda la documentación detallada del anteproyecto, objetivos y diseño se encuentra en nuestro espacio de Notion:
-> 👉 [Notion][https://gratis-earthworm-88a.notion.site/Anteproyecto-Jose-Alcaide-Fernandez-32e320f4ddea80b1a249f52e10b5d0ca]
+> 👉 [Notion](https://gratis-earthworm-88a.notion.site/Anteproyecto-Jose-Alcaide-Fernandez-32e320f4ddea80b1a249f52e10b5d0ca)
 
 ---
 

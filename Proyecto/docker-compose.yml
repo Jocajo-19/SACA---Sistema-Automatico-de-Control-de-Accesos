@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  db:
+    image: mariadb:10.11
+    container_name: db_estadio
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: root_futbol_pass
+      MARIADB_DATABASE: control_accesos
+      MARIADB_USER: admin_torno
+      MARIADB_PASSWORD: torno_futbol_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+
+  api:
+    build: .
+    container_name: api_estadio
+    restart: always
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+
+volumes:
+  mariadb_data:
